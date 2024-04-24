@@ -1,4 +1,18 @@
-﻿
+﻿using System;
+
+//func addSubWords(s string, typ WordType, dict map[string] int)
+//{
+//    switch typ {
+//        case WT_BLUE:
+//            dict[s]++
+//    case WT_RED:
+//            dict[s]--
+//    default: // WT_BLACK WT_WHITE
+//            dict[s] = -999999
+//    }
+//}
+
+
 using System.Text;
 
 //using var input = new StreamReader(Console.OpenStandardInput());
