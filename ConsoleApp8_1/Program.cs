@@ -33,7 +33,7 @@ for (int testNumber = 1; testNumber < 12; testNumber++)
                     for (int n3 = 1; n3 <=word.Length-n2; n3++)
                     {
                         addStr(word.Substring(n2, n3), 0, resultBlue);
-                        addStr(word.Substring(n2, n3), 0, resultRed);
+                        
 
 
                     }
@@ -54,7 +54,7 @@ for (int testNumber = 1; testNumber < 12; testNumber++)
                 for (int n2 = 0; n2 < word.Length; n2++)
                     for (int n3 = 1; n3 <= word.Length - n2; n3++)
                     {
-                        addStr(word.Substring(n2, n3 ), 2, resultRed);
+                        addStr(word.Substring(n2, n3 ), 2, resultBlue);
                     }
             }
             else //white
@@ -64,7 +64,7 @@ for (int testNumber = 1; testNumber < 12; testNumber++)
                     for (int n3 = 1; n3 <= word.Length - n2; n3++)
                     {
                         addStr(word.Substring(n2, n3 ), 3, resultBlue);
-                        addStr(word.Substring(n2, n3 ), 3, resultRed);
+                        
 
                     }
             }
@@ -73,11 +73,11 @@ for (int testNumber = 1; testNumber < 12; testNumber++)
         {
             if (resultBlue.Keys.Contains(word))
                 resultBlue.Remove(word);
-            if (resultRed.Keys.Contains(word))
-                resultRed.Remove(word);
+            //if (resultRed.Keys.Contains(word))
+            //    resultRed.Remove(word);
         }
         var endResult=resultBlue.Where(x=>x.Value!= -999).OrderByDescending(o=>o.Value).ThenByDescending(o=>o.Key.Length).ThenBy(o=>o.Key).ToList();
-        var endResultRed = resultRed.Where(x => x.Value != -999).OrderByDescending(o => o.Value).ThenByDescending(o => o.Key.Length).ThenBy(o => o.Key).ToList();
+       // var endResultRed = resultRed.Where(x => x.Value != -999).OrderByDescending(o => o.Value).ThenByDescending(o => o.Key.Length).ThenBy(o => o.Key).ToList();
 
         if (endResult.Count > 0)
             output.WriteLine($"{endResult[0].Key} {endResult[0].Value}");
@@ -98,6 +98,8 @@ void addStr(string subStr,int type, Dictionary<string,int> res)
             res[subStr]++;break;
         case 2:
             res[subStr]--; break;
+        case 3:
+            break;
         default:
             res[subStr]=-999; break;
 
