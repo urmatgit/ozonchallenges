@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp6", "ConsoleApp6\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp7", "ConsoleApp7\ConsoleApp7.csproj", "{A772929B-E7AA-4A57-81A9-14CD676562CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp7_1", "ConsoleApp7_1\ConsoleApp7_1.csproj", "{1D74C385-837E-4B81-BA51-8E754EEB4CF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp7_1", "ConsoleApp7_1\ConsoleApp7_1.csproj", "{1D74C385-837E-4B81-BA51-8E754EEB4CF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8_1", "ConsoleApp8_1\ConsoleApp8_1.csproj", "{81552ADD-DE8A-4970-A0C3-51C46F46F04F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp8_1", "ConsoleApp8_1\ConsoleApp8_1.csproj", "{81552ADD-DE8A-4970-A0C3-51C46F46F04F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{355C64CB-C1D7-40B5-8373-41AB03AFCEAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{355C64CB-C1D7-40B5-8373-41AB03AFCEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp9", "ConsoleApp9\ConsoleApp9.csproj", "{35785FB6-3D97-4236-8940-7999AC5F03FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp9", "ConsoleApp9\ConsoleApp9.csproj", "{35785FB6-3D97-4236-8940-7999AC5F03FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp9_1", "ConsoleApp9_1\ConsoleApp9_1.csproj", "{C328A6E7-0137-4C6F-9749-48DA9AE4EDBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{35785FB6-3D97-4236-8940-7999AC5F03FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35785FB6-3D97-4236-8940-7999AC5F03FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35785FB6-3D97-4236-8940-7999AC5F03FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C328A6E7-0137-4C6F-9749-48DA9AE4EDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C328A6E7-0137-4C6F-9749-48DA9AE4EDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C328A6E7-0137-4C6F-9749-48DA9AE4EDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C328A6E7-0137-4C6F-9749-48DA9AE4EDBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
